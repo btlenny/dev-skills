@@ -1,6 +1,5 @@
 import './newskillform.css';
 
-
 function NewSkillForm() {
   return (
     <form className="NewSkillForm">
