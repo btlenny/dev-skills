@@ -5,14 +5,14 @@ import NewSkillForm from './NewSkillForm';
 
 
 export default function SkillList({ skills }) {
-  const skillListItems = skills.map((skill, idx) => (
-    <SkillListItem skill={skill} index={idx} key={skill.id} />
+  const skillListItems = skills.map((skill, idx) => (<SkillListItem skill=
+    {skill} index={idx} key={skill.id} />
   ));
 
   return (
     <ul className="SkillList">
       {skillListItems}
-      <NewSkillForm />
+
     </ul>
   );
 }
